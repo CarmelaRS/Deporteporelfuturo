@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Boostrap JavaScrip -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+    <!-- Iconos de fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    
+    <!-- Nuestro CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+   
+    <!-- Titulo -->
+    <title>DEPORTE POR EL FUTURO</title>
+    <!-- Icono -->
+    <link rel="icon" href="./img/logo.png">
+
+    <!-- Fuente Oswald  -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- =========================================================== -->
+    <!-- ENCABEZADO -->
+    <!-- =========================================================== -->
+    <!-- Fondo --> 
+    <!-- Creamos NavBar para el menu // Para que el menu no se pegue al scroll usamos JS-->
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <div class="container-fluid justify-content-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <!-- Logo -->
+        <img src="./img/logo.png" width="60" height="60" class="d-inline-block align-top" alt="">
+        <!-- Nombre -->
+        <!-- Le damos estilo al texto -->
+        <!-- Formato de texto en negrita -->
+        <span class="fs-4 ms-3 fw-bold" style="font-family: 'Oswald', sans-serif; font-weight: 200;">Deporte por el futuro</span>
+      </a>
+  
+      <!-- Boton para la barra de navegacion -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <!-- Contenido de la barra de navegacion -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <!-- Enlaces a las paginas -->
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#inicio">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">NOSOTROS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#colabora">COLABORA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">CONTACTO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">PROYECTOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aventuras">AVENTURAS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipo">EQUIPO</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+<!-- =========================================================== -->
+<!-- FIN DE ENCABEZADO -->
+<!-- =========================================================== -->
+ <!-- Creamos un apartado en blanco para que la barra de navegacion quede centrada -->
+<div class="container-fluid" style="background-color: #ffffff; height: 100px;"></div>
+
+<!-- Creamos el boton para subir arriba (con JS se muestra y oculta // con CSS se estiliza)-->
+<span class="subir-arriba">
+    <i class="arriba fas fa-chevron-up" aria-hidden="true"></i>
+</span>
+
+<!-- Creamos un apartado para INICIO -->
+<section id="inicio">
+    <!-- De fondo tiene que tener una imagen y letras por encima -->
+    <div class="container-fluid text-white d-flex justify-content-center align-items-center" 
+         style="background-image: url(./img/Inicio/fondoinicio.jpg); background-size: cover; background-position: center; height: 600px;">
+      <div class="row" style="margin-left: 25%; margin-right:25%    ">
+        <div class="col-12 text-center">
+          <h1>¿CUANTO VALE LA SONRISA DE UN NIÑO?</h1>
+          <p>EL DEPORTE COMO UNA FORMA DE SOÑAR</p>
+          <p class="mb-4">Únete al movimiento "deporte por el futuro" y ayúdanos a devolver la sonrisa a los niños y jóvenes que más lo necesitan a través del deporte</p>
+          <a href="#nosotros" id="conocenosBtn" class="btn custom-btninicio">Conócenos</a> <!-- Los colores del boton se encuentran en el archivo main.css -->
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Creamos un apartado para NOSOTROS -->
+<!-- Sección NOSOTROS -->
+<section id="nosotros" style="background-color: #EA9EA9; padding: 50px 0; display: flex; justify-content: center; align-items: center;">
+    <!-- El div tiene que tener un tamaño limitado y estar centrado -->
+    
+    <div class="container text-center text-white" style="width: 700px; height: auto; padding: 10px; border-radius: 10px;">
+        <!-- Título de la sección -->
+        <h2 class="mb-5">NOSOTROS</h2>
+        <!-- Párrafo descriptivo -->
+        <p class="mb-2" style="font-size: 17px;">
+            Deporte por el Futuro es una asociación que nace en 2018 de la mano de un grupo de jóvenes, que tras apreciar el deseo que tienen los niños más desfavorecidos de practicar deporte, se decidió a hacerlo realidad.
+        </p>
+        <p class="mb-2" style="font-size: 17px;">
+            Durante varios años realizamos viajes solidarios a Marruecos, donde fuimos testigos de lo importante que era el deporte para los niños de los pueblos que visitábamos.
+        </p>
+        <p class="mb-5" style="font-size: 17px;">
+            La actividad de la asociación comenzó así con la recolecta en España de material deportivo, para entregarlo en los pueblos más desfavorecidos de Marruecos, a los cuales viajábamos una vez al año, con la Asociación Rally Solidario. Allí no solo repartíamos el material, sino que organizábamos distintos partidos y actividades deportivas en las escuelas.        
+        </p>
+        <!-- Botones de acción --> 
+        <div>
+            <a href="#mision" id="misionBtn" class="btn custom-btnnosotros mx-4">   Misión   </a>
+
+            <a href="#valores" id="valoresBtn" class="btn custom-btnnosotros mx-4">Valores</a>
+        </div>
+        <div style="margin-top: 20px;">
+            <a href="#colabora" id="ayudanosBtn" class="btn custom-btnnosotros mx-3">¡Ayúdanos!</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- Creamos la sección Misión -->
+<section id="mision" style="margin: 0; padding: 0;"> <!-- Eliminamos márgenes -->
+    <div class="container-fluid p-0"> <!-- Cambiamos a container-fluid y eliminamos padding -->
+        <div class="row no-gutters"> <!-- Clase no-gutters para eliminar el espacio entre columnas -->
+            <!-- Columna para la imagen -->
+            <div class="col-md-6 p-0" style="overflow: hidden; height: 700px;"> <!-- Eliminamos el padding y ajustamos la foto-->
+                <img src="./img/Mision/abrazo.jpg" class="img-fluid" alt="Abrazo de niños" style="width: 100%; height: auto;">
+            </div>
+            <!-- Columna para la tabla -->
+           <div class="col-md-4" style="margin-left: 20px; margin-right: 20px; align-items: center;">
+    <table class="table" >
+        <tbody>
+            <!-- Nueva fila para la Misión -->
+            <tr>
+                <td colspan="2" style="padding:50px; border: none;">
+                    <h2>MISIÓN</h2>
+                    <p>Deporte por el futuro surge con la misión de proteger a la infancia a través del deporte, ayudando a los niños más desfavorecidos de las siguientes formas: </p>
+                </td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none; padding-left: 60px;">
+                    <img src="./img/Mision/deporte.png" alt="Deporte y Diversión" width="50" height="50">
+                </td>
+                <td style="border: none;">
+                    <strong>DEPORTE Y DIVERSION</strong>
+                    <p>Un espacio de deporte y diversión que actúe como vía de escape de su dura situación.</p>
+                </td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none; padding-left: 60px;">
+                    <img src="./img/Mision/valores.png" alt="Valores" width="50" height="50">
+                </td>
+                <td style="border: none;">
+                    <strong>VALORES</strong>
+                    <p>Transmitimos valores importantes como el esfuerzo, el compañerismo y el trabajo en equipo.</p>
+                </td>
+            </tr>
+            <tr style="border: none;">
+                <td style="border: none; padding-left: 60px;">
+                    <img src="./img/Mision/futuro.png" alt="Futuro" width="50" height="50">
+                </td>
+                <td style="border: none;">
+                    <strong>FUTURO</strong>
+                    <p>Damos a los niños la oportunidad de soñar y les animamos a luchar por un futuro mejor.</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Creamos Seccion Valores -->
+<section id="valores" style="background-color: #EA9EA9; padding: 50px 0; display: flex; justify-content: center; align-items: center;">
+    <div class="container" >
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <img src="./img/valores/compromiso.png" alt="Compromiso" class="icon-image"> 
+            <p>COMPROMISO</p>
+          </div>
+          <div class="col">
+            <img src="./img/valores/esperanza.png" alt="Esperanza" class="icon-image"> 
+            <p>ESPERANZA</p>
+          </div>
+        </div>
+        <div class="row mb-4 text-center">
+          <div class="col">
+            <img src="./img/valores/trabajo.png" alt="Trabajo en Equipo" class="icon-image"> 
+            <p>TRABAJO EN EQUIPO</p>
+          </div>
+          <div class="col">
+            <h1> VALORES </h1>
+          </div>
+          <div class="col">
+            <img src="./img/valores/alegria.png" alt="Alegría y Diversión" class="icon-image"> 
+            <p>ALEGRA Y DIVERSION</p>
+          </div>
+        </div>
+        <div class="row mb-4 text-center">
+            <div class="col">
+            <img src="./img/valores/solidaridad.png" alt="Solidaridad" class="icon-image"> 
+            <p>SOLIDARIDAD</p>
+          </div>
+        </div>
+    </div>
+
+</section>
+
+<!-- Seccion Ayudanos - COLABORA -->
+<section id="colabora" class="my-5">
+    <div class="container">
+        <!-- Fila 1 -->
+        <div class="row justify-content-center g-1 mb-1">
+            <!-- Imagen 1 - Donativos -->
+            <div class="col-md-5">
+                <div class="card text-white">
+                    <img src="./img/ayudanos/donativos.jpg" class="card-img" alt="Donativos">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title mb-3">Donativos</h5>
+                        <p class="card-text">Cada euro nos acerca un poco más a nuestro destino.</p>
+                        <p class="card-text">15€ = La sonrisa de un niño</p>
+                        <p class="card-text">100€ = 100km más cerca</p>
+                        <p class="card-text">1000€ = 300km más cerca</p>
+                        <p class="card-text text-end ">Número de cuenta </p>
+                        <p class="card-text text-end fw-bold fs-5" style="margin-top: 0; margin-bottom: 3px;">ES90 0049 1629 1626 1014 7433</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagen 2 - Voluntarios -->
+            <div class="col-md-4">
+                <div class="card text-white">
+                    <img src="./img/ayudanos/voluntarios.jpg" class="card-img" alt="Voluntarios">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="card-title">Voluntarios</h5>
+                        <p class="card-text">Buscamos jóvenes con ganas de cambiar el mundo.</p>
+                        <p class="card-text">¿Te apuntas?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Fila 2 -->
+        <div class="row justify-content-center g-1 mb-1">
+            <!-- Imagen 3 - Material Deportivo -->
+            <div class="col-md-4">
+                <div class="card text-white">
+                    <img src="./img/ayudanos/material_deportivo.jpg" class="card-img" alt="Material Deportivo">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title d-flex flex-column justify-content-center align-items-center text-center mb-3">Material deportivo</h5>
+                        <p class="card-text">En nuestra actividad se necesitan distintos materiales como:</p>
+                        <ul>
+                            <li>Balones</li>
+                            <li>Raquetas</li>
+                            <li>Porterías</li>
+                            <li>Canastas</li>
+                            <li>Equipaciones</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Imagen 4 - Una persona marca la diferencia -->
+            <div class="col-md-5">
+                <div class="card text-white">
+                    <img src="./img/ayudanos/marca_diferencia.jpg" class="card-img" alt="Una persona marca la diferencia">
+                    <div class="card-img-overlay d-flex flex-column justify-content-center align-items-center text-center">
+                        <h5 class="card-title">UNA PERSONA MARCA LA DIFERENCIA</h5>
+                        <p class="card-text">¿Y tú, quieres ser esa persona?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Unete a nosotros (CONTACTO)-->
+<section id="contacto" style="background-image: url(./img/Unete/furgonetas.jpg); background-size: cover; background-position: center;" class="border-top py-5">
+
+    <div class="container"> <!-- Contenedor para limitar el ancho -->
+    <h2 class="text-center mb-4">¡UNETE A NOSOTROS!</h2>
+
+    <!-- Dividimos la pagina en dos columnas -->
+    <div class="row">
+        <div class="col-md-6 d-flex flex-column justify-content-center align-items-center" style="color: white;">
+            <h4 style="margin-top: 10px;">DONATIVOS</h4>
+            <p> Número de cuenta: </p>
+            <h3>ES90 0049 1629 1626 1014 7433</h3>
+            <hr>
+            <!-- Tabla con íconos en blanco (siluetas) -->
+                <table style="margin: 0 auto; color: white; font-size: 18px;">
+                    <tr>
+                        <td style="padding-right: 10px; font-size: 24px;">
+                            <a href="https://www.google.com/maps?q=Avenida+del+dr+arce+10,Madrid" target="_blank" style="color: white;">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.google.com/maps?q=Avenida+del+dr+arce+10,Madrid" target="_blank" style="color: white; text-decoration: none;">
+                            Av. del Dr. Arce 10, Madrid
+                        </a>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td style="padding-right: 10px; font-size: 24px;">
+                                <a href="mailto:deporteporelfuturo@gmail.com" style="color: white; text-decoration:none;">
+                                <i class="fas fa-envelope" style="color: white;"></i>
+                            </a>
+                            </td>
+                            <td>
+                                <a href="mailto:deporteporelfuturo@gmail.com" style="color: white; text-decoration:none;">
+                                deporteporelfuturo@gmail.com
+                            </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="padding-right: 10px; font-size: 24px;">
+                                <a href="https://wa.me/34633300013" target="_blank" style="color: white; text-decoration: none;">
+                                    <i class="fab fa-whatsapp" style="color: white;"></i>
+                                </a>
+                            </td>
+                        <td>
+                            <a href="https://wa.me/34633300013" target="_blank" style="color: white; text-decoration: none;">
+                                +34 633 300 013
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="col-md-6 d-flex justify-content-center">
+                <form style="max-width: 400px; width: 100%; background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px;">
+                    <h4 class="text-center">¡Hazte voluntario!</h4> <!-- Título del formulario -->
+                    <div class="row mb-3"> <!-- Nueva fila para Nombre y Apellido -->
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre*" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido*" required>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="email" placeholder="Email*" required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="tel" class="form-control" id="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group mb-3 position-relative"> <!-- Espacio abajo -->
+                        <select class="form-control" id="tipo-voluntariado" style="color: #495057;">
+                            <option value="" disabled selected>Tipo de voluntariado</option> <!-- Placeholder -->
+                            <option value="Voluntario DXEF">Voluntario DXEF</option>
+                            <option value="Rally Solidario">Rally Solidario</option>
+                            <option value="Deporte por Ucrania " disabled>Deporte por Ucrania (Work in progress)</option>
+                        </select>
+                        <span class="position-absolute" style="right: 10px; top: 50%; transform: translateY(-50%); pointer-events: none;">
+                            <i class="fas fa-caret-down" style="color: #495057;"></i> <!-- Icono de flecha -->
+                        </span>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" id="pregunta" rows="3" placeholder="¿Quieres preguntar algo?"></textarea>
+                    </div>
+                <!-- Botón de envío -->
+                    <button type="submit" class="btn btn-primary w-50 mx-auto d-block" id="enviar-voluntariado">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Proyectos -->
+<section id="proyectos" class="border-top py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">PROYECTOS</h2>
+        <p class="text-center mb-4">Descubre los proyectos que tenemos y anímate a participar con nosotros !!</p>
+        <div class="row justify-content-center g-3 mb-3"> <!-- Añadimos g-3 para reducir el espacio entre las tarjetas de la fila y mb para reducir el espacio entre las filas-->
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <a href="https://rallysolidario.com/viaje-marruecos-solidario-html/" target="_blank">
+                    <img src="./img/Proyectos/rallysolidario.png" class="card-img-top" alt="Proyecto 1" style="width: 100px; height: auto;">
+                    </a>    
+                    <div class="card-body text-center">
+                        <a href="https://rallysolidario.com/viaje-marruecos-solidario-html/" target="_blank" style="color: black; text-decoration: underline; text-decoration-thickness: 1px;">
+                        <h5 class="card-title" style="margin-bottom: 20px;">RALLY SOLIDARIO </h5>
+                        </a>
+                        <p class="card-text">El Rally solidario es una aventura única en la que repartimos todo el material deportivo que recaudamos en los distintos poblados marroquíes que visitamos. Para ello en la edición que se realiza en Navidades realizamos distintos partidos y actividades deportivas en las escuelas de los pueblos que visitamos. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Proyectos/convoysolidario.jpeg" class="card-img-top" alt="Proyecto 2"  style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="margin-bottom: 20px;">CONVOY SOLIDARIO</h5>
+                        <p class="card-text text-center">Durante los meses más duros de la guerra organizamos diversos convoys para introducir en ucrania productos de primera necesidad.
+
+                            Actualmente tenemos un camión en la frontera que se encarga de llevar productos de polonia a ucrania.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center g-3 mb-3">
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Proyectos/voluntariodxef.jpg" class="card-img-top" alt="Proyecto 3"  style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="margin-bottom: 20px;">VOLUNTARIADO DXEF</h5>
+                        <p class="card-text text-center">Únete al movimiento DXEF y ayúdanos a devolver la sonrisa a los niños y jóvenes que más lo necesitan. 
+
+                            Centrado en las distintas actividades que realizamos para llevar a cabo nuestra actividad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                        <div class="position-absolute translate-middle" style="padding: 5px 10px; border-radius: 5px;">
+                            <img src="./img/Proyectos/workinprogress.png" alt="Work in Progress" style="width: 100px; height: 100px; border-radius: 50%; object-fit: contain;">
+                        </div>
+                        <img src="./img/Proyectos/deporteporucrania.jpeg" class="card-img-top" alt="Proyecto 4" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="card-title" style="margin-bottom: 20px;">DEPORTE POR UCRANIA</h5>
+                        <p class="card-text text-center">"Deporte por Ucrania" se basa en la organización de juegos y actividades deportivas semanales para los niños y jóvenes refugiados ucranianos en Madrid.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center my-4"> <!-- Sección del botón -->
+            <a href="#contacto" id="inscripcionBtn" class="btn btn-outline-danger" style="padding: 10px 20px; border-radius: 0;">INSCRÍBETE <span>&gt;</span></a>
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Aventuras -->
+<section id="aventuras" class="border-top py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">AVENTURAS</h2>
+        <!-- Carrousel de Imagenes con todas las que hay en la carpeta img/Aventuras -->
+
+
+
+
+
+
+
+        <!-- Carrusel de videos -- TIENES QUE COGER EN ENLACE DESDE COMPARTIR - INCLUIR EL CODIGO DE EMBED -->
+        <!-- Fila de videos -->
+        <div class="row justify-content-center">
+            <!-- Video 1 DEPORTE POR EL FUTURO -->
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="ratio ratio-16x9">
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/_w5sC52_vgA?si=PrsQ6Tpn7oGxnMWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Video 2 RALLY SOLIDARIO 2018 - 2019 -->
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/pf-O79LMOyc?si=ELRN3jq_gzgZWmUn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <!-- Video 3 RALLY SOLIDARIO 2019 - 2020 -->
+            <div class="col-6 col-md-3 mb-4 d-flex justify-content-center">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ofqe9I8AGTM?si=jLIRIznsff8AKkw6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Seccion Equipo -->
+<section id="equipo" class="border-top py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">NUESTRO EQUIPO</h2>
+        <!-- Añadir tarjetas con los integrantes del equipo -->
+        <div class="row justify-content-center g-3 mb-3">
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Equipo/arantxa.jpeg" class="card-img-top" alt="Arantxa Hernández" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; object-position: right;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">ARANTXA HERNÁNDEZ</h5>
+                        <p class="card-text">"A donde quiera que vayas ve con todo tu corazón"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Equipo/carmela.jpeg" class="card-img-top" alt="Carmela Regife" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CARMELA REGIFE</h5>
+                        <p class="card-text">"Las pequeñas cosas son las responsables de los grandes cambios"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Equipo/cristina.jpg" class="card-img-top" alt="Cristina Yela" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CRISTINA YELA</h5>
+                        <p class="card-text">"La felicidad es parte de los que somos. La alegria es la sensación"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center g-3 mb-3">
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Equipo/ivan.jpeg" class="card-img-top" alt="Iván Hernández" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover; object-position: right;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">IVÁN HERNÁNDEZ</h5>
+                        <p class="card-text">"Ya que estamos de paso dejemos roderas bonitas"</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card text-center sin-borde"> <!-- Añadimos la clase sin-borde para eliminar el borde de la tarjeta -->
+                    <div class="d-flex justify-content-center">
+                    <img src="./img/Equipo/voluntarios.jpeg" class="card-img-top" alt="Nuestros voluntarios" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">NUESTROS VOLUNTARIOS</h5>
+                        <p class="card-text">"El valor es el motor del cambio"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Pie de pagina // Añadir redes sociales -->
+<footer class="bg-white text-black text-center py-3">
+    
+    <a href="mailto:deporteporelfuturo@gmail.com" style="color: black; text-decoration:none;"> deporteporelfuturo@gmail.com</a>
+    <br>
+    <!-- Añadir iconos de redes sociales -->
+    <a href="https://www.instagram.com/deportexelfuturo/" target="_blank" style="color: black; text-decoration: none;"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.facebook.com/deporteporelfuturo" target="_blank" style="color: black; text-decoration: none;"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.youtube.com/@deporteporelfuturo7006" target="_blank" style="color: black; text-decoration: none;"><i class="fab fa-youtube"></i></a>
+
+    <p>&copy; 2018 Deporte por el futuro</p>
+</footer>
+
+<!-- Llamamos a nuestro JS -->
+<script src="./main.js"></script>
+
+  </body>
+</html>

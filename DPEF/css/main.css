@@ -1,0 +1,225 @@
+
+/*Titulo 2 configuracion*/
+h2 {
+    font-size: 40px; /* Tamaño del título */
+    margin-bottom: 40px; /* Espaciado inferior del título */
+    font-family: 'Oswald', sans-serif; /* Fuente del título */
+    font-weight: 200;
+    
+}
+#equipo h2{
+    color: #B05B6D;
+}
+h1{
+    font-size: 56px; /* Tamaño del título */
+    margin-bottom: 40px; /* Espaciado inferior del título */
+    font-family: 'Oswald', sans-serif; /* Fuente del título */
+    font-weight: 200;
+}
+/*Config h5 -- Titulos de proyectos */
+h5{
+    font-size: 20px; /* Tamaño del título */
+    margin-bottom: 40px; /* Espaciado inferior del título */
+    font-family: 'Oswald', sans-serif; /* Fuente del título */
+    font-weight: 200;
+}
+/* config h4*/
+
+/*Config linea horizontal */
+hr{
+    height: 10px;
+    background-color: white;
+    /* Color blanco */
+    border: none;
+    /*longitud*/
+    width: 50%;
+    /*centrado*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Configuramos el color del navbar*/
+.nav-link {
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+}
+
+/* Efecto al pasar el ratón */
+.nav-link:hover {
+    font-size: 1.1em; /* Aumenta el tamaño del texto */
+    color: #B05B6D; /* Cambia el color del texto (puedes personalizar el color) */
+    text-decoration: underline; /* Subraya el texto */
+}
+
+
+/*----------------------------------*/
+
+/*Inicio*/
+/* Botones Inicio */
+.custom-btninicio {
+    background-color: #B05B6D;
+    border-color: #B05B6D;
+    color: white; /* Asegúrate de que el texto sea visible sobre el fondo */
+}
+
+.custom-btninicio:hover {
+    background-color: #9A4F60; /* Un color ligeramente más oscuro para el hover */
+    border-color: #9A4F60;
+}
+
+#inicio p{
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 40px; /* Espaciado inferior del título */
+    font-family: 'Oswald', sans-serif; /* Fuente del título */
+}
+/*----------------------------------*/
+
+/*Nosotros*/
+/* Botones NOSOTROS */
+.custom-btnnosotros {
+    background-color: transparent; /* Sin fondo */
+    border: 1px solid black; /* Borde negro */
+    color: black; /* Texto negro */
+    padding: 10px 60px; /* Espaciado dentro del botón: 10px arriba/abajo y 30px izquierda/derecha */
+    border-radius: 30px; /* Bordes redondeados */
+    transition: background-color 0.3s, color 0.3s; /* Efecto suave al pasar el ratón */
+    text-decoration: none; /* Sin subrayado */
+}
+
+.custom-btnnosotros:last-child {
+    margin-right: 0; /* Sin margen derecho en el último botón */
+}
+.custom-btnnosotros:hover {
+    background-color: #9A4F60; /* Un color ligeramente más oscuro para el hover */
+    border-color: #9A4F60;
+}
+/*----------------------------------*/
+
+/* Valores */
+.container-valores{
+    text-align: center; /* Centrar texto */
+    padding: 50px 0; /* Espaciado vertical */
+}
+
+.icono {
+    display: inline-block; /* Para colocar iconos en línea */
+    margin: 20px; /* Espaciado entre los iconos */
+    text-align: center; /* Centrar texto de los iconos */
+}
+.icon-image {
+    width: 60px; /* Tamaño de las imágenes de los iconos */
+    height: 60px; /* Tamaño de las imágenes de los iconos */
+    margin-top: 40px;
+    margin-bottom: 40px; /* Espaciado inferior de las imágenes */
+}
+/*----------------------------------*/
+
+/* Colabora */
+#colabora .card{
+    border: 1px solid white;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#colabora .card-img {
+    opacity: 1; /* Hace la imagen un poco más oscura */
+    height: 300px; /* Ajusta la altura de las imágenes */
+    object-fit: cover; /* Asegura que la imagen cubra todo el espacio del contenedor */
+}
+
+#colabora .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#colabora .card-text {
+    font-size: 16px;
+}
+
+/* Borde superior */
+.border-top{
+    border-top: 5px solid rgb(255, 255, 255);
+    padding: 50px 0;
+}
+/*----------------------------------*/
+
+/* Unete a nosotros */
+/* Boton de envío */
+/* Estilos del botón */
+#enviar-voluntariado {
+    background-color: #e27b92e0; /* Color de fondo inicial */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 10px 15px; /* Espaciado interior (más pequeño) */
+    border-radius: 20px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+    font-size: 14px; /* Tamaño de fuente más pequeño */
+    margin-top: 10px; /* Espacio superior */
+    text-align: center; /* Alineación centrada */
+}
+
+/* Estilo cuando se pasa el cursor sobre el botón */
+#enviar-voluntariado:hover {
+    background-color: #ea3d62e0; /* Color de fondo al pasar el cursor */
+}
+/*----------------------------------*/
+/* Proyectos */
+.sin-borde {
+    border: none !important; /* Quita el borde */
+    box-shadow: none !important; /* Elimina la sombra, si la hay */
+}
+/* Estilo del boton de inscripcion */
+#inscripcionBtn {
+    color: #ad5a6c; /* Color del texto */
+    border-color: #ad5a6c; /* Color del borde */
+    background-color: transparent; /* Fondo transparente */
+}
+
+#inscripcionBtn:hover {
+    background-color: #ad5a6c; /* Color de fondo al pasar el ratón */
+    color: white; /* Color del texto al pasar el ratón */
+}
+
+/*----------------------------------*/
+/* Aventuras*/
+
+/*----------------------------------*/
+/* Boton para subir arriba */
+.subir-arriba{
+    display: none; /* Oculto por defecto para que se muestre solo cuando se necesite, con JS se muestra */
+}
+/*Damos estilo al boton para subir arriba*/
+.subir-arriba{
+    color: white;
+    background-color: #e27b92e0;
+    border: none;
+    padding: 10px; /* Espaciado interior */
+    width: 50px; /* Ancho */
+    border-radius: 50%; /* Bordes redondeados */
+    text-align: center; /* Centrar texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-weight: bold; /* Grosor de la fuente */
+    position: fixed; /* Fijo en la pantalla */
+    bottom: 15px; /* Posicion inferior */
+    right: 30px; /* Posicion derecha */
+    transition: .5s all ease; /* Transicion suave */
+    animation: subirArriba 1s infinite alternate; /* Animacion para subir arriba */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+}
+
+.subir-arriba:hover{
+    background-color: #ea3d62e0; /* Cambia el color al pasar el ratón */
+}
+
+/* Creamos la animacion para subir arriba, muestra el boton subiendo y bajando */
+@keyframes subirArriba {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translateY(-15px);
+    }
+}
+/*----------------------------------*/
